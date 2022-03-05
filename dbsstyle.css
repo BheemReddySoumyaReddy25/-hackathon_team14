@@ -1,0 +1,58 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:whi; 
+    box-sizing: border-box; 
+    font-family: 'Nunito', sans-serif;
+}  
+h1 {
+    color: rgb(148, 17, 17);
+}
+.login{  
+    font-size: 25px;
+        width: 382px; 
+        height: 600px; 
+        text-align: center;
+        margin: 145px auto;  
+        position: relative;
+        padding: 80px;  
+        border-radius: 15px ;  
+        box-shadow: 0px 0px 4px 4px rgba(75, 71, 71, 0.609);
+          
+}  
+label{  
+    color: #15d364;  
+    font-size: 17px;  
+}  
+#uname, #mail, #pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    background-color: rgb(198, 193, 211);
+    padding-left: 8px;  
+}  
+  
+#log{  
+    width: 200px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue; 
+    background-color: rgb(198, 193, 211); 
+  
+  
+} 
+a {
+    color: aquamarine;
+    text-decoration: none;
+} 
+span{  
+    color: rgb(58, 84, 170);  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+    background-color: grey;  
