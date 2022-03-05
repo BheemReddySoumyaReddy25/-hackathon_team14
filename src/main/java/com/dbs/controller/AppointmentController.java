@@ -31,9 +31,11 @@ public class AppointmentController {
     }
     @GetMapping("/dashboard")
     public  String getDashboard(Model model,@RequestParam("WMId") int WMId){
+        model.addAttribute("WMId",WMId);
         model.addAttribute("accepted",appointmentService.findByWMIdAndStatus(WMId,"accept").size());
         model.addAttribute("request",appointmentService.findByWMIdAndStatus(WMId,"request").size());
         model.addAttribute("rescheduled",appointmentService.findByWMIdAndStatus(WMId,"rescheduled").size());
         return "wealth_manager/dashboard";
     }
 }
+

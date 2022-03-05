@@ -51,7 +51,10 @@
         <div class="col-sm-3 sidenav hidden-xs">
             <h2>Wealth Manager</h2>
             <ul class="nav nav-pills nav-stacked">
-                <li class="active"><a href="#section1">Dashboard</a></li>
+                <li class="active"><a th:href="@{/dashboard}">Dashboard</a></li>
+                <li>
+                        <a th:href="@{/hni}" >View All HNI's</a>
+                </li>
 
             </ul><br>
         </div>
@@ -94,21 +97,11 @@
                 </div>
 
             </div>
-            <div class="row">
-                <div class="col-sm-8">
-                    <div class="well">
-                        <p>Text</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="well">
-                        <p>Text</p>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
 </div>
-
+<div>
+</div>
 </body>
 </html>
