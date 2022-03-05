@@ -8,4 +8,5 @@ import java.util.List;
 @Service
 public interface AppointmentService {
     public List<Appointment> findByWMIdAndStatus(int WMId, String status);
+    public void saveWMIAppointment(Appointment appointment);
 }

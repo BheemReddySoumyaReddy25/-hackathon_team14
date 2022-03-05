@@ -19,4 +19,10 @@ public class AppointmentServiceImpl implements AppointmentService{
             throw  new RuntimeException("Invalid WM ID or status");
         return result.get();
     }
+
+    @Override
+    public void saveWMIAppointment(Appointment appointment) {
+        appointmentRepository.save(appointment);
+    }
+
 }
